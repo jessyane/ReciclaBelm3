@@ -10,6 +10,9 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import senac.reciclabelem.R;
 import senac.reciclabelem.Tab2Fragment;
+import senac.reciclabelem.Tab3Fragment;
+import senac.reciclabelem.Tab4Fragment;
+import senac.reciclabelem.Tab5Fragment;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -33,6 +36,12 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 return PlaceholderFragment.newInstance(position + 1);
             case 1:
                 return new Tab2Fragment();
+            case 2:
+                return new Tab3Fragment();
+            case 3:
+                return new Tab4Fragment();
+            case 4:
+                return new Tab5Fragment();
                 default: return null;
 
         }
