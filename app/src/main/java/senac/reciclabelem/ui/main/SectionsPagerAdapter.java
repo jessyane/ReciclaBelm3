@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import senac.reciclabelem.R;
+import senac.reciclabelem.Tab2Fragment;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -27,9 +28,15 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-        return PlaceholderFragment.newInstance(position + 1);
+        switch (position) {
+            case 0:
+                return PlaceholderFragment.newInstance(position + 1);
+            case 1:
+                return new Tab2Fragment();
+                default: return null;
+
+        }
+
     }
 
     @Nullable
