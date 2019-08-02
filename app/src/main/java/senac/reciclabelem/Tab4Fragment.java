@@ -22,7 +22,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Tab4Fragment extends FragmentActivity implements OnMapReadyCallback {
+public class Tab4Fragment extends SupportMapFragment implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
@@ -31,13 +31,11 @@ public class Tab4Fragment extends FragmentActivity implements OnMapReadyCallback
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        getMapAsync(this);
     }
+
 
     @Override
     public void onMapReady(GoogleMap googleMap) {

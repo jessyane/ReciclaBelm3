@@ -40,7 +40,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 2:
                 return new Tab3Fragment();
             case 3:
-                return new Tab5Fragment();
+                return new Tab4Fragment();
                 default: return null;
 
         }
