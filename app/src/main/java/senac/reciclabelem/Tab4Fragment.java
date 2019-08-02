@@ -30,6 +30,8 @@ public class Tab4Fragment extends SupportMapFragment implements OnMapReadyCallba
         // Required empty public constructor
     }
 
+
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
