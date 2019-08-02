@@ -5,6 +5,7 @@ import android.content.Context;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
@@ -39,14 +40,21 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             case 2:
                 return new Tab3Fragment();
             case 3:
-                return new Tab4Fragment();
-            case 4:
                 return new Tab5Fragment();
                 default: return null;
 
         }
 
     }
+//     public FragmentActivity getItem(int position) {
+//        switch (position) {
+//            case 4:
+//                return new Tab4Fragment();
+//            default:
+//                return null;
+//        }
+//    }
+
 
     @Nullable
     @Override

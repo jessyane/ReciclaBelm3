@@ -5,19 +5,24 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Tab4Fragment extends Fragment {
+public class Tab4Fragment extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
@@ -26,19 +31,21 @@ public class Tab4Fragment extends Fragment {
     }
 
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_maps);
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab4, container, false);
-    }
+    public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
 
+        // Add a marker in Sydney, Australia, and move the camera.
+        LatLng belém = new LatLng(1.3411793,-48.5204215);
+        mMap.addMarker(new MarkerOptions().position(belém).title("marker in Belém"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(belém));
+    }
 }
