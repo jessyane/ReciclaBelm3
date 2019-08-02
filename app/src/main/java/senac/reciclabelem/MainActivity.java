@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         tabs.getTabAt(0).setIcon(R.drawable.ic_recycle);
         tabs.getTabAt(1).setIcon(R.drawable.ic_tag);
-        tabs.getTabAt(2).setIcon(R.drawable.ic_sharing_interface);
-        tabs.getTabAt(3).setIcon(R.drawable.ic_map_placeholder);
+        tabs.getTabAt(2).setIcon(R.drawable.ic_map_placeholder);
+        tabs.getTabAt(3).setIcon(R.drawable.ic_sharing_interface);
 
 
         FloatingActionButton fab = findViewById(R.id.fab);
