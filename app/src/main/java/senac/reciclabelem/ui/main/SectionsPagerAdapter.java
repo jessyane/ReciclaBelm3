@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import senac.reciclabelem.R;
+import senac.reciclabelem.Tab1Fragment;
 import senac.reciclabelem.Tab2Fragment;
 import senac.reciclabelem.Tab3Fragment;
 import senac.reciclabelem.Tab4Fragment;
@@ -34,7 +35,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return PlaceholderFragment.newInstance(position + 1);
+                return new Tab1Fragment();
             case 1:
                 return new Tab2Fragment();
             case 2:
@@ -46,14 +47,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         }
 
     }
-//     public FragmentActivity getItem(int position) {
-//        switch (position) {
-//            case 4:
-//                return new Tab4Fragment();
-//            default:
-//                return null;
-//        }
-//    }
 
 
     @Nullable

@@ -23,8 +23,6 @@ public class Tab2Fragment extends Fragment {
     public Tab2Fragment() {
     }
 
-   /* int[] sampleImages = {R.drawable.image_1, R.drawable.image_2, R.drawable.image_3, R.drawable.image_4, R.drawable.image_5};
-*/
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_tab2, container, false);

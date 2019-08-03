@@ -44,8 +44,8 @@ public class Tab4Fragment extends SupportMapFragment implements OnMapReadyCallba
         mMap = googleMap;
 
         // Add a marker in Sydney, Australia, and move the camera.
-        LatLng belém = new LatLng(1.4615468,-48.4920082);
-        mMap.addMarker(new MarkerOptions().position(belém).title("marker in Belém"));
+        LatLng belém = new LatLng(-1.4615468,-48.4920082);
+        mMap.addMarker(new MarkerOptions().position(belém).title("Belém"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(belém, 14.5f));
     }
 }
