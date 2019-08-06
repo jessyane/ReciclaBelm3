@@ -7,6 +7,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 
+import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         tabs.getTabAt(2).setIcon(R.drawable.ic_map_placeholder);
         tabs.getTabAt(3).setIcon(R.drawable.ic_sharing_interface);
 
-
         //FloatingActionButton fab = findViewById(R.id.fab);
 
       /*  fab.setOnClickListener(new View.OnClickListener() {
@@ -45,4 +45,22 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.settings, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.sobre:
+                Intent launchNewIntent = new Intent(MainActivity.this, Sobre.class);
+                startActivityForResult(launchNewIntent, 0);
+
+            default:
+
+        }return true;
+    }
 }
