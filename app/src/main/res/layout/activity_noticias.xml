@@ -44,7 +44,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/comfortaa"
-                    android:text="Reciclagem"
+                    android:text="Pará é o estado que menos aproveita o lixo produzido para a reciclagem, aponta estudo"
                     android:textAllCaps="false"
                     android:textColor="#026605"
                     android:textSize="24sp"
@@ -60,9 +60,21 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/comfortaa"
-                    android:text="A reciclagem é o processo no qual, resíduos de produtos que já foram consumidos e objetos que seriam descartados no meio ambiente, por serem considerados inutilizáveis; são reinseridos no ciclo produtivo através da sua utilização como matéria-prima para a fabricação de novos produtos. Existem vários tipos de processo de reciclagem, variando de acordo com o material a ser reaproveitado, dentre os quais se destacam: o de papel, de metal, de plástico, de vidro e de lixo orgânico. O processo de reciclagem teve seu início na década de 1940, período que ficou marcado pela Segunda Guerra Mundial com terríveis conflitos bélicos e inúmeras cidades dizimadas."
+                    android:text="O Pará é o estado do Brasil que menos aproveita o lixo para a reciclagem. De acordo com a Associação Brasileira de Empresas de Limpeza Pública e Resíduos Especiais (Abrelpe), o estado recicla apenas 0,48% do lixo produzido.
+
+Ainda segundo o levantamento, Belém também está entre as capitais brasieiras que menos reciclam o lixo. Somente 0,45% dos resíduos produzidos na capital são destinados à reciclagem. Essa índice é abaixo da média nacional, que é de 3%.
+
+O Pará também está entre os estados com piores índices de coleta de resíduos sólidos. De acordo com o estudo, pouco mais de 76% do lixo produzido no estado é coletado de forma correta.
+
+A Secretaria Municipal de Saneamento (Sesan) informou que Belém produz em média 1000 toneladas de lixo por dia. Após a realização da coleta, o lixo é levado para o Aterro Sanitário de Marituba. Deste total, em torno de 8 toneladas é reaproveitada. A Prefeitura de Belém esclarece que existem 31 ecopontos em Belém e distritos, onde 11 cooperativas de catadores trabalham na coleta seletiva em roteiros predefinidos com o apoio da Prefeitura. Os produtos coletados estão sendo enviados para galpões de triagem, onde ocorre a classificação, separação e prensagem."
                     android:textColor="#009688"
                     android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FONTE: https://g1.globo.com/pa/para/noticia/2019/07/26/para-e-o-estado-que-menos-aproveita-o-lixo-produzido-para-a-reciclagem-aponta-estudo.ghtml" />
 
             </LinearLayout>
 

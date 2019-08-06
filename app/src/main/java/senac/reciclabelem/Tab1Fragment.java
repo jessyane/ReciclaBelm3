@@ -39,5 +39,7 @@ public class Tab1Fragment extends Fragment {
             }
         });
         return view;
+
+
     }
 }
