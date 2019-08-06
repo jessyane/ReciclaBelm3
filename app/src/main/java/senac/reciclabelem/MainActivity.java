@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toolbar;
 
 import senac.reciclabelem.ui.main.SectionsPagerAdapter;
 
@@ -33,13 +34,15 @@ public class MainActivity extends AppCompatActivity {
         tabs.getTabAt(3).setIcon(R.drawable.ic_sharing_interface);
 
 
-        FloatingActionButton fab = findViewById(R.id.fab);
+        //FloatingActionButton fab = findViewById(R.id.fab);
 
-        fab.setOnClickListener(new View.OnClickListener() {
+      /*  fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
             }
-        });
+        });*/
+
     }
+
 }

@@ -34,7 +34,7 @@ public class Tab1Fragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(getActivity(), Tab0Fragment.class);
+                Intent myIntent = new Intent(getActivity(), Reciclagem.class);
                 getActivity().startActivity(myIntent);
             }
         });
