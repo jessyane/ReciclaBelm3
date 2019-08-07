@@ -30,11 +30,19 @@ public class Tab1Fragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_tab1,
                 container, false);
-        ImageButton button = (ImageButton) view.findViewById(R.id.btn_1);
-        button.setOnClickListener(new View.OnClickListener() {
+        ImageButton buttonr = (ImageButton) view.findViewById(R.id.btn_1);
+        buttonr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(getActivity(), Reciclagem.class);
+                getActivity().startActivity(myIntent);
+            }
+        });
+        ImageButton buttonn = (ImageButton) view.findViewById(R.id.btn_4);
+        buttonn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getActivity(), Noticias.class);
                 getActivity().startActivity(myIntent);
             }
         });

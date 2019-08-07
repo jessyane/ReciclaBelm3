@@ -11,12 +11,22 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#00000000">
 
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#004CAF50"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -34,6 +44,7 @@
                     android:id="@+id/title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
                     android:gravity="left"
                     android:minHeight="?actionBarSize"
                     android:padding="@dimen/appbar_padding"
@@ -43,7 +54,7 @@
                     android:textColor="#FFFFFF"
                     android:textColorLink="#4CAF50"
                     android:textSize="24sp"
-                    android:textStyle="italic"
+                    android:textStyle="bold|italic"
                     android:typeface="serif" />
             </LinearLayout>
 
@@ -52,8 +63,7 @@
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary" />
+            android:layout_height="wrap_content" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
