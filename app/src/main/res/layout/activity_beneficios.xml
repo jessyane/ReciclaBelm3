@@ -44,7 +44,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/comfortaa"
-                    android:text="Pará é o estado que menos aproveita o lixo produzido para a reciclagem, aponta estudo"
+                    android:text="Titulo Aqui.."
                     android:textAllCaps="false"
                     android:textColor="#026605"
                     android:textSize="24sp"
@@ -60,13 +60,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/comfortaa"
-                    android:text="O Pará é o estado do Brasil que menos aproveita o lixo para a reciclagem. De acordo com a Associação Brasileira de Empresas de Limpeza Pública e Resíduos Especiais (Abrelpe), o estado recicla apenas 0,48% do lixo produzido.
-
-Ainda segundo o levantamento, Belém também está entre as capitais brasieiras que menos reciclam o lixo. Somente 0,45% dos resíduos produzidos na capital são destinados à reciclagem. Essa índice é abaixo da média nacional, que é de 3%.
-
-O Pará também está entre os estados com piores índices de coleta de resíduos sólidos. De acordo com o estudo, pouco mais de 76% do lixo produzido no estado é coletado de forma correta.
-
-A Secretaria Municipal de Saneamento (Sesan) informou que Belém produz em média 1000 toneladas de lixo por dia. Após a realização da coleta, o lixo é levado para o Aterro Sanitário de Marituba. Deste total, em torno de 8 toneladas é reaproveitada. A Prefeitura de Belém esclarece que existem 31 ecopontos em Belém e distritos, onde 11 cooperativas de catadores trabalham na coleta seletiva em roteiros predefinidos com o apoio da Prefeitura. Os produtos coletados estão sendo enviados para galpões de triagem, onde ocorre a classificação, separação e prensagem."
+                    android:text="Texto Aqui..."
                     android:textColor="#009688"
                     android:textSize="18sp" />
 
@@ -76,15 +70,15 @@ A Secretaria Municipal de Saneamento (Sesan) informou que Belém produz em médi
                     android:layout_height="wrap_content"
                     android:autoLink="web"
                     android:linksClickable="true"
-                    android:text="FONTE: https://g1.globo.com/pa/para/noticia/2019/07/26/para-e-o-estado-que-menos-aproveita-o-lixo-produzido-para-a-reciclagem-aponta-estudo.ghtml" />
+                    android:text="FONTE: Link Aqui..." />
 
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="match_parent"
-                android:layout_height="107dp"
-                android:contentDescription="TODO"
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="270dp"
+                android:layout_marginBottom="0dp"
                 android:scaleType="fitEnd"
                 android:src="@drawable/chao" />
 

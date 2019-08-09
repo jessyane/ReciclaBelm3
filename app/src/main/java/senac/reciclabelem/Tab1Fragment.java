@@ -38,6 +38,22 @@ public class Tab1Fragment extends Fragment {
                 getActivity().startActivity(myIntent);
             }
         });
+        ImageButton buttonb = (ImageButton) view.findViewById(R.id.btn_2);
+        buttonb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getActivity(), Beneficios.class);
+                getActivity().startActivity(myIntent);
+            }
+        });
+        ImageButton buttona = (ImageButton) view.findViewById(R.id.btn_3);
+        buttona.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getActivity(), Artesanato.class);
+                getActivity().startActivity(myIntent);
+            }
+        });
         ImageButton buttonn = (ImageButton) view.findViewById(R.id.btn_4);
         buttonn.setOnClickListener(new View.OnClickListener() {
             @Override
