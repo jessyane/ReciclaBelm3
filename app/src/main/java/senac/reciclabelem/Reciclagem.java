@@ -2,6 +2,7 @@ package senac.reciclabelem;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 public class Reciclagem extends AppCompatActivity {
@@ -14,5 +15,6 @@ public class Reciclagem extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setLogo(R.drawable.ic_logo);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
+        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }

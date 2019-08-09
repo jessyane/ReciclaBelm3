@@ -2,6 +2,7 @@ package senac.reciclabelem;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
@@ -19,5 +20,6 @@ public class Noticias extends AppCompatActivity {
 
         TextView t2 = (TextView) findViewById(R.id.textView4);
         t2.setMovementMethod(LinkMovementMethod.getInstance());
+        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }
