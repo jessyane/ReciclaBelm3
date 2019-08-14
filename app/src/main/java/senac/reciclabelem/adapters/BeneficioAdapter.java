@@ -18,6 +18,7 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 import senac.reciclabelem.R;
+import senac.reciclabelem.Tab2Fragment;
 import senac.reciclabelem.models.Beneficio;
 
 public class BeneficioAdapter extends RecyclerView.Adapter<BeneficioAdapter.BeneficioViewHolder> {
@@ -26,7 +27,7 @@ public class BeneficioAdapter extends RecyclerView.Adapter<BeneficioAdapter.Bene
     private Context context;
     public View.OnClickListener mOnItemClickListener;
 
-    public BeneficioAdapter(List<Beneficio> beneficioList, Context context) {
+    public BeneficioAdapter(List<Beneficio> beneficioList, Tab2Fragment context) {
         this.beneficioList = beneficioList;
         this.context = context;
     }
