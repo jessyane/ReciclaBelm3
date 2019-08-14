@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "287186141772",
+    "firebase_url": "https://reciclabelm3-daca4.firebaseio.com",
+    "project_id": "reciclabelm3-daca4",
+    "storage_bucket": "reciclabelm3-daca4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287186141772:android:96c3e3808ba41537",
+        "android_client_info": {
+          "package_name": "senac.reciclabelem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287186141772-fm0a6u26hidq8lgiac9jvqhsk1bcttkd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "senac.reciclabelem",
+            "certificate_hash": "5a56eb17ae38c6323f4f3481a4b03ece651727a5"
+          }
+        },
+        {
+          "client_id": "287186141772-oo3ge0ec5l5t0to3ge1k0tdrcb1gl1ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw5o_lEu8jXaJmltKP4Qkf_9CGOjMwMiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287186141772-oo3ge0ec5l5t0to3ge1k0tdrcb1gl1ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
