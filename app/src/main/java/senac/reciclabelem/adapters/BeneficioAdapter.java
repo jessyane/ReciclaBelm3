@@ -29,7 +29,7 @@ public class BeneficioAdapter extends RecyclerView.Adapter<BeneficioAdapter.Bene
 
     public BeneficioAdapter(List<Beneficio> beneficioList, Tab2Fragment context) {
         this.beneficioList = beneficioList;
-        this.context = context;
+        //this.context = context;
     }
 
     @NonNull
