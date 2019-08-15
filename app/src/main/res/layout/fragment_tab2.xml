@@ -25,6 +25,12 @@ tools:context=".Tab2Fragment">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/chao" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

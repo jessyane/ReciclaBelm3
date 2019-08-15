@@ -27,9 +27,9 @@ public class BeneficioAdapter extends RecyclerView.Adapter<BeneficioAdapter.Bene
     private Context context;
     public View.OnClickListener mOnItemClickListener;
 
-    public BeneficioAdapter(List<Beneficio> beneficioList, Tab2Fragment context) {
+    public BeneficioAdapter(List<Beneficio> beneficioList, Context context) {
         this.beneficioList = beneficioList;
-        //this.context = context;
+        this.context = context;
     }
 
     @NonNull

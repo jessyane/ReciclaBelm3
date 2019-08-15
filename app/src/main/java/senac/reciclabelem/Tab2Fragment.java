@@ -45,8 +45,38 @@ public class Tab2Fragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_tab2, container, false);
+        View view =  inflater.inflate(R.layout.fragment_tab2, container, false);
+
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+
+        if (!FIREBASE_OFFLINE) {
+            database.setPersistenceEnabled(true);
+            FIREBASE_OFFLINE = true;
+        }
+
+        myRef = database.getReference("beneficios");
+        myRef.keepSynced(true);
+
+        recyclerView = view.findViewById(R.id.listBeneficio);
+
+        recyclerView.setHasFixedSize(true);
+
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
+
+        progressDialog = new ProgressDialog(getActivity());
+
+        progressDialog.setMessage("Carregando...");
+
+        progressDialog.show();
+
+        myRef.limitToFirst(100).addValueEventListener(ListenerGeral);
+
+
+        return view;
+
     }
+
     private TextView mTextMessage;
 
     private RecyclerView recyclerView;
@@ -66,11 +96,11 @@ public class Tab2Fragment extends Fragment {
             beneficioList.clear();
 
             for (DataSnapshot ds : dataSnapshot.getChildren()) {
-                Beneficio ebook = ds.getValue(Beneficio.class);
-                beneficioList.add(ebook);
+                Beneficio beneficio = ds.getValue(Beneficio.class);
+                beneficioList.add(beneficio);
             }
 
-            adapter = new BeneficioAdapter(beneficioList, Tab2Fragment.this);
+            adapter = new BeneficioAdapter(beneficioList, getContext());
 
             recyclerView.setAdapter(adapter);
 
@@ -82,35 +112,4 @@ public class Tab2Fragment extends Fragment {
             progressDialog.dismiss();
         }
     };
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-
-        if (!FIREBASE_OFFLINE) {
-            database.setPersistenceEnabled(true);
-            FIREBASE_OFFLINE = true;
-        }
-
-        myRef = database.getReference("ebooks");
-        myRef.keepSynced(true);
-
-        recyclerView = getView().findViewById(R.id.listBeneficio);
-
-        recyclerView.setHasFixedSize(true);
-
-        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
-
-        progressDialog = new ProgressDialog(getActivity());
-
-        progressDialog.setMessage("Carregando...");
-
-        progressDialog.show();
-
-        myRef.limitToFirst(100).addValueEventListener(ListenerGeral);
-    }
-
 }
