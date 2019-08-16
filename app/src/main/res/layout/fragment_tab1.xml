@@ -19,7 +19,8 @@ tools:context=".Tab1Fragment">
         android:adjustViewBounds="true"
         android:background="#00FFFFFF"
         android:scaleType="centerInside"
-        android:src="@drawable/botao1" />
+        android:src="@drawable/botao1"
+        />
 
     <ImageButton
         android:id="@+id/btn_2"
