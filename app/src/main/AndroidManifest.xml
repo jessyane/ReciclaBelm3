@@ -27,6 +27,7 @@
         <activity android:name=".Beneficios" />
         <activity android:name=".Noticias" />
         <activity android:name=".Sobre" />
+        <activity android:name=".BeneficioActivity"/>
         <activity
             android:name=".Reciclagem"
             android:screenOrientation="portrait" />

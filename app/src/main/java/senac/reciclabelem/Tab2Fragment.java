@@ -2,6 +2,7 @@ package senac.reciclabelem;
 
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -16,6 +17,8 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -47,6 +50,15 @@ public class Tab2Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_tab2, container, false);
 
+        ImageButton buttonr = (ImageButton) view.findViewById(R.id.btnAdd);
+        buttonr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(getActivity(), BeneficioActivity.class);
+                getActivity().startActivity(myIntent);
+            }
+        });
+
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 
         if (!FIREBASE_OFFLINE) {
@@ -74,7 +86,6 @@ public class Tab2Fragment extends Fragment {
 
 
         return view;
-
     }
 
     private TextView mTextMessage;

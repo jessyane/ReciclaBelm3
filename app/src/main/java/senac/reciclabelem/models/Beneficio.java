@@ -7,16 +7,18 @@ public class Beneficio {
     private String descricao;
     private String link;
     private String url;
+    private String numero;
 
     public Beneficio() {
     }
 
-    public Beneficio(String imageUrl, String titulo, String descricao, String link, String url) {
+    public Beneficio(String imageUrl, String titulo, String descricao, String link, String url, String numero) {
         this.imageUrl = imageUrl;
         this.titulo = titulo;
         this.descricao = descricao;
         this.link = link;
         this.url = url;
+        this.numero = numero;
     }
 
 
@@ -40,5 +42,6 @@ public class Beneficio {
         return url;
     }
 
+    public String getNumero(){ return  numero;}
 
 }
