@@ -44,7 +44,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/comfortaa"
-                    android:text="Titulo Aqui.."
+                    android:text="Do Lixo ao Luxo"
                     android:textAllCaps="false"
                     android:textColor="#026605"
                     android:textSize="24sp"
@@ -60,7 +60,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/comfortaa"
-                    android:text="Texto Aqui..."
+                    android:text="Imagens que iram dispertar em você o desejo de sempre reciclar."
                     android:textColor="#009688"
                     android:textSize="18sp" />
 
@@ -70,17 +70,89 @@
                     android:layout_height="wrap_content"
                     android:autoLink="web"
                     android:linksClickable="true"
-                    android:text="FONTE: Link Aqui..." />
+                    android:text="Vamos lá" />
 
             </LinearLayout>
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:scaleType="center"
+                android:src="@drawable/abaijudepedaldebicicleta" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/barril" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="407dp"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/bicicleta" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="454dp"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/caixotedefeira" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ideiascomcaixotes" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/garrafadeamaciante" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/garrafadecorada" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/garrafapet" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ideascomrolodefio" />
+
+            <ImageView
+                android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
                 android:layout_height="270dp"
                 android:layout_marginBottom="0dp"
                 android:scaleType="fitEnd"
                 android:src="@drawable/chao" />
+
 
         </LinearLayout>
 
