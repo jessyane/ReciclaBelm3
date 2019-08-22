@@ -64,95 +64,736 @@
                     android:textColor="#009688"
                     android:textSize="18sp" />
 
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/abaijudepedaldebicicleta" />
+
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/textView5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:autoLink="web"
-                    android:linksClickable="true"
-                    android:text="Vamos lá" />
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Abaju de pedal de bicicleta"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Para Fazer esse abaju você precisa:\n1. pedal de bicicleta.\n2. Bocau.\n3. lâmpada.\n4. Suporte de para abaju.\n5. fio com entrada para a tomada."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+
 
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="0dp"
-                android:scaleType="center"
-                android:src="@drawable/abaijudepedaldebicicleta" />
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/barril" />
-
-            <ImageView
-                android:id="@+id/imageView4"
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="407dp"
-                android:layout_marginBottom="0dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/bicicleta" />
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="match_parent"
-                android:layout_height="454dp"
-                android:layout_marginBottom="0dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/caixotedefeira" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/ideiascomcaixotes" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/garrafadeamaciante" />
+                <ImageView
+                    android:id="@+id/img_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="328dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/barril" />
 
-            <ImageView
-                android:id="@+id/imageView8"
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Barril"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="O barril pode ser um movel de luxo em sua casa, materiais:\n1. Barril.\n2. Tinta splay (a cor de sua preferência)\n3. lixa grão 80."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/garrafadecorada" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/garrafapet" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="0dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/ideascomrolodefio" />
+                <ImageView
+                    android:id="@+id/img_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="288dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/bicicleta" />
 
-            <ImageView
-                android:id="@+id/imageView1"
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Bicicleta"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Para Fazer esse bicicleta você precisa:\n1. Pote de margarina.\n2. Copo de café.\n3. Três Cds.\n4. Três palitos de picolé."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="270dp"
-                android:layout_marginBottom="0dp"
-                android:scaleType="fitEnd"
-                android:src="@drawable/chao" />
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
 
+                <ImageView
+                    android:id="@+id/img_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/caixotedefeira" />
+
+                <ImageView
+                    android:id="@+id/img_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="216dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/ideiascomcaixotes" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Armarios e Mesa de Caixotes"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Como fazer armarios e mesas de caixotes:\n1. Caixotes (a quantidade vai depender do tamanho do móvel).\n2. Prego e Martelo.\n3. Lixa grão 220.\n4. Verniz ou tinta."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/garrafapet" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Vazinho de Garrafa pet"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Materiais que você vai precisar:\n1. Garrafa pet.\n2. Tesoura.\n3. Lixa de unha.\n4. Tinta Splay."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/garrafadecorada" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Vazinho de garrafa de vidro"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="você vai precisar de uma garrafa de vidro e usar a sua ciatividade para decorar."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_26"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/ideiascompalitodepicole" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Ideias de decoração com palito de picolé"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Decorar com palito de picolé é simples e fácil, pegue o palito e monte oque você quiser, apenas cole com cola quente."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_28"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/lampada" />
+
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Lâmpada"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Transforme uma lâmpada queimada em um lindo vasinho, materias:\n 1. Lâmpada.\n2. Abra a lâmpada com muito cuidado.\n3. Coloque dentro oque você quiser."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/ideiascomcano" />
+
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Ideias de decoração com cano"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Transforme um cano venho em uma obra de arte, como por exemplo o abaju, em vaso e tudo que você consegui imaginar."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/latinha" />
+
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Lata"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Lata de leite também pode ser um otimo item de decoração.\n1. Limpe bem a lata.\n2.decore com oque você quiser."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_36"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/lixeiradepeneu" />
+
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Lixeira"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Materias que você vai precisar.\n1. Peneu.\n2. Dois pares de cano, madeira ou ferro.\n3.Tinta splay.\n4. Parafuso."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_41"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/lustrideraiodebike" />
+
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Lustre do aro da bicicleta"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Materias que você vai precisar para fazer esse lustre.\n1. Raio de bicicleta.\n2. Lâmpadas.\n3. bocais estreitos.\n4. Fio elétrico.\n5. Para Colcar para funcionar chame um elétricista"
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_44"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/lustridegarrfa" />
+
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Lustre de garrafa de vidro"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Materias que você vai precisar para fazer esse lustre.\n1. Garrafa de vidro da sua preferência.\n2. Corte o fundo da garrafa(tem videos no Youtube).\n3. Lixe grão 80.\n4. Fio elétrico.\n5. Para Colcar para funcionar chame um elétricista.\n6. Lâmpada.\n7. Bocal Estreito."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_45"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:layout_gravity="fill_horizontal|fill_vertical"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/lustrederalador" />
+
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="Lustre de Ralador"
+                android:textAllCaps="false"
+                android:textColor="#026605"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="Materias que você vai precisar para fazer esse lustre.\n1. Ralador.\n2. Lâmpada.\n3. Bocal estreito.\n4. Fio elétrico.\n5. Para Colcar para funcionar chame um elétricista"
+                android:textColor="#009688"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_50"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/mesaderaiodebike" />
+
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Mesa do aro de bike"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Materias que você vai precisar para fazer essa mesa.\n1. Aro.\n2. Suporte de ferro.\n3. Soldar."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
         </LinearLayout>
 
