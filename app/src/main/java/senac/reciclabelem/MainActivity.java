@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         tabs.getTabAt(0).setIcon(R.drawable.ic_recycle);
         tabs.getTabAt(1).setIcon(R.drawable.ic_tag);
-        tabs.getTabAt(2).setIcon(R.drawable.ic_sharing_interface);
-        tabs.getTabAt(3).setIcon(R.drawable.ic_map_placeholder);
+        tabs.getTabAt(2).setIcon(R.drawable.ic_map_placeholder);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -56,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent launchNewIntent = new Intent(MainActivity.this, Sobre.class);
                 startActivityForResult(launchNewIntent, 0);
             case R.id.compartilhar:
-                Intent launchNewIntent2 = new Intent(MainActivity.this, Sobre.class);
+                Intent launchNewIntent2 = new Intent(MainActivity.this, Compartilhar.class);
                 startActivityForResult(launchNewIntent2, 0);
             default:
 
