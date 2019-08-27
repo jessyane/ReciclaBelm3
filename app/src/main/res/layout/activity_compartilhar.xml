@@ -1,97 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="#4B57C015"
-android:orientation="vertical"
-tools:context=".Compartilhar">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".Compartilhar">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar4"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
-
-    <EditText
-    android:id="@+id/editText3"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="30dp"
-    android:layout_marginTop="30dp"
-    android:layout_marginRight="30dp"
-    android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
-    android:ems="10"
-    android:hint="Titulo"
-    android:inputType="textPersonName" />
-
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="30dp"
-    android:layout_marginTop="30dp"
-    android:layout_marginRight="30dp">
-
-
-    <ImageButton
-        android:id="@+id/btnCamera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:src="@android:drawable/ic_menu_camera" />
-
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="256dp"
-        android:layout_height="109dp"
-        android:adjustViewBounds="false"
-        android:background="@drawable/camera"
-        android:baselineAlignBottom="true"
-        android:src="@android:drawable/ic_input_add" />
-</LinearLayout>
-
-<EditText
-    android:id="@+id/editText4"
-    android:layout_width="match_parent"
-    android:layout_height="137dp"
-    android:layout_marginLeft="30dp"
-    android:layout_marginTop="30dp"
-    android:layout_marginRight="30dp"
-    android:background="@android:drawable/editbox_background"
-    android:ems="10"
-    android:gravity="start|top"
-    android:hint="Descrição"
-    android:inputType="textMultiLine" />
-
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:scaleType="fitEnd"
-        android:src="@drawable/chao" />
+        android:orientation="vertical"
+        android:background="#4B57C015">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="30dp"
-        android:clickable="true"
-        android:src="@android:drawable/ic_input_add" />
-</FrameLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="Titulo"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp">
+
+
+            <ImageButton
+                android:id="@+id/btnCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_camera" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="256dp"
+                android:layout_height="109dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/camera"
+                android:baselineAlignBottom="true"
+                android:src="@android:drawable/ic_input_add" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Descrição"
+            android:inputType="textMultiLine" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitEnd"
+                android:src="@drawable/chao" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:clickable="true"
+                android:src="@android:drawable/ic_input_add" />
+        </FrameLayout>
+    </LinearLayout>
+
 
 </LinearLayout>
