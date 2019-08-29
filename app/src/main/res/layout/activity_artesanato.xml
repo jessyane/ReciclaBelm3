@@ -509,6 +509,7 @@
                     android:textColor="#009688"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -556,6 +557,7 @@
                     android:textColor="#009688"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -691,53 +693,54 @@
                     android:textColor="#009688"
                     android:textSize="18sp" />
             </LinearLayout>
+
             <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginBottom="15dp"
-            android:background="#FFFFFF"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/img_45"
-                android:layout_width="match_parent"
-                android:layout_height="247dp"
-                android:layout_gravity="fill_horizontal|fill_vertical"
-                android:layout_marginTop="0dp"
-                android:src="@drawable/lustrederalador" />
-
-
-            <TextView
-                android:id="@+id/textView46"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:fontFamily="@font/comfortaa"
-                android:text="Lustre de Ralador"
-                android:textAllCaps="false"
-                android:textColor="#026605"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView47"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|end"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:fontFamily="@font/comfortaa"
-                android:text="Materias que você vai precisar para fazer esse lustre.\n1. Ralador.\n2. Lâmpada.\n3. Bocal estreito.\n4. Fio elétrico.\n5. Para Colcar para funcionar chame um elétricista"
-                android:textColor="#009688"
-                android:textSize="18sp" />
-        </LinearLayout>
+                <ImageView
+                    android:id="@+id/img_45"
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/lustrederalador" />
+
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Lustre de Ralador"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Materias que você vai precisar para fazer esse lustre.\n1. Ralador.\n2. Lâmpada.\n3. Bocal estreito.\n4. Fio elétrico.\n5. Para Colcar para funcionar chame um elétricista"
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -786,6 +789,14 @@
                     android:textColor="#009688"
                     android:textSize="18sp" />
             </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitEnd"
+                android:src="@drawable/chao" />
 
         </LinearLayout>
 

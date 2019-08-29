@@ -5,16 +5,13 @@ import android.content.Context;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import senac.reciclabelem.R;
 import senac.reciclabelem.Tab1Fragment;
 import senac.reciclabelem.Tab2Fragment;
-import senac.reciclabelem.Tab3Fragment;
 import senac.reciclabelem.Tab4Fragment;
-import senac.reciclabelem.Tab5Fragment;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to

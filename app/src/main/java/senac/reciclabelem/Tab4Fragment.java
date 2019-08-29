@@ -19,12 +19,13 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Tab4Fragment extends SupportMapFragment implements GoogleMap.OnInfoWindowClickListener,OnMapReadyCallback {
+public class Tab4Fragment extends SupportMapFragment implements GoogleMap.OnInfoWindowClickListener,OnMapReadyCallback  {
 
     private GoogleMap mMap;
 
