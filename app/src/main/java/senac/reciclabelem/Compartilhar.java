@@ -79,9 +79,9 @@ public class Compartilhar extends AppCompatActivity {
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             File photoFile = null;
             try {
-                File storageDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+                File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
                 photoFile = File.createTempFile("PHOTOAPP", ".jpg", storageDir);
-                mCurrentPhotoPath = "file:" + photoFile.getAbsolutePath();
+                mCurrentPhotoPath = photoFile.getAbsolutePath();
             }
             catch(IOException ex){
                 Toast.makeText(getApplicationContext(), "Erro ao tirar a foto", Toast.LENGTH_SHORT).show();
@@ -89,7 +89,7 @@ public class Compartilhar extends AppCompatActivity {
 
             if (photoFile != null) {
                 Uri photoURI = FileProvider.getUriForFile(this,
-                        "senac.fileprovider",
+                        "senac.reciclabelem.fileprovider",
                         photoFile);
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
