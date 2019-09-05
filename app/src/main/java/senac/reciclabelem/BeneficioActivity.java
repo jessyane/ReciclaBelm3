@@ -64,7 +64,7 @@ public class BeneficioActivity extends AppCompatActivity {
                 Beneficio beneficio = new Beneficio(numero, UrlImage, titulo, descricao, link, null);
 
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myRef = database.getReference("beneficios").child(beneficio.getNumero());
+                DatabaseReference myRef = database.getReference("beneficio").child(beneficio.getNumero());
 
                 myRef.setValue(beneficio);
 

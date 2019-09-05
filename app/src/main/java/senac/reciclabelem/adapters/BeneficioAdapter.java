@@ -67,12 +67,6 @@ public class BeneficioAdapter extends RecyclerView.Adapter<BeneficioAdapter.Bene
         mOnItemClickListener = itemClickListener;
     }
 
-    private void removerItem(int position) {
-        beneficioList.remove(position);
-        notifyItemRemoved(position);
-        notifyItemRangeChanged(position, beneficioList.size());
-    }
-
     public class BeneficioViewHolder extends RecyclerView.ViewHolder {
 
         final ImageView imgBeneficio;
