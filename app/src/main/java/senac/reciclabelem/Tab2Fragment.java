@@ -69,7 +69,7 @@ public class Tab2Fragment extends Fragment {
             FIREBASE_OFFLINE = true;
         }
 
-        myRef = database.getReference("beneficios");
+        /*myRef = database.getReference("beneficios");
         myRef.keepSynced(true);
 
         recyclerView = view.findViewById(R.id.listBeneficio);
@@ -84,7 +84,7 @@ public class Tab2Fragment extends Fragment {
 
         progressDialog.show();
 
-        myRef.limitToFirst(100).addValueEventListener(ListenerGeral);
+        myRef.limitToFirst(100).addValueEventListener(ListenerGeral);*/
 
 
         return view;
