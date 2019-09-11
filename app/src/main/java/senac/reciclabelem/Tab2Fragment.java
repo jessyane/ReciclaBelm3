@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -43,6 +44,8 @@ import senac.reciclabelem.models.Beneficio;
  */
 public class Tab2Fragment extends Fragment {
 
+    RecyclerView recyclerView;
+
     public Tab2Fragment() {
     }
 
@@ -70,10 +73,9 @@ public class Tab2Fragment extends Fragment {
         myRef.keepSynced(true);
 
         recyclerView = view.findViewById(R.id.listBeneficio);
-
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         recyclerView.setHasFixedSize(true);
 
-        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
 
         progressDialog = new ProgressDialog(getActivity());
@@ -90,7 +92,6 @@ public class Tab2Fragment extends Fragment {
 
     private TextView mTextMessage;
 
-    private RecyclerView recyclerView;
     BeneficioAdapter adapter;
 
     static DatabaseReference myRef;

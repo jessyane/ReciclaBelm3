@@ -55,10 +55,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent launchNewIntent = new Intent(MainActivity.this, Sobre.class);
                 startActivityForResult(launchNewIntent, 0);
                 return true;
-            case R.id.compartilhar:
+            /*case R.id.compartilhar:
                 Intent launchNewIntent2 = new Intent(MainActivity.this, Compartilhar.class);
                 startActivityForResult(launchNewIntent2, 0);
-                return true;
+                return true;*/
             default:
                 return super.onOptionsItemSelected(item);
 

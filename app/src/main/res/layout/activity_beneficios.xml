@@ -44,7 +44,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
                     android:fontFamily="@font/comfortaa"
-                    android:text="Titulo Aqui.."
+                    android:text="Beneficos da Reciclagem"
                     android:textAllCaps="false"
                     android:textColor="#026605"
                     android:textSize="24sp"
@@ -60,19 +60,230 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:fontFamily="@font/comfortaa"
-                    android:text="Texto Aqui..."
+                    android:text="A reciclagem do lixo traz diversos benefícios para a natureza e consequentemente para nós. Além de melhorar a qualidade de saúde pública, evitando doenças geradas por acúmulo e por enchentes, podemos citar também a prevenção de impactos ambientais.
+"
                     android:textColor="#009688"
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:autoLink="web"
-                    android:linksClickable="true"
-                    android:text="FONTE: Link Aqui..." />
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Abaixo, você confere os benefícios da reciclagem de acordo com o material:"
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="236dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/vidro" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Vidro"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="É um dos poucos materiais que pode ser 100% reciclado, não sendo considerado “lixo”. Se 10 kg de vidro são jogados fora, eles produzem exatos 10 kg de vidro reciclado. Isso acontece pois mesmo após vários processos de reciclagem, as propriedades químicas do vidro se mantêm preservadas. Fato que é bem diferente do que acontece com outros elementos, como o papel, que vai perdendo a qualidade.
+
+O vidro não deve ser jogado no solo, pois possui um tempo de degradação muito alto (centenas de anos). Além disso, para fazer o material, são necessários vários recursos naturais, como areia, calcário, feldspato, entre outros."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/text20"
+                android:layout_width="match_parent"
+                android:layout_height="236dp"
+                android:layout_gravity="fill_horizontal|fill_vertical"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/papel" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="Papel"
+                android:textAllCaps="false"
+                android:textColor="#026605"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/comfortaa"
+                android:text="O papel é o material que mais causa o desmatamento de florestas no mundo. Para ser produzida cerca de 1 tonelada, é preciso derrubar mais de 50 árvores de eucalipto, além de mais de 100 mil litros de água.
+
+A reciclagem do papel evita não só o desmatamento, mas também a liberação de dióxido de carbono na atmosfera, que chega a ser mais que o dobro do peso do papel que é produzido.
+
+Para ser produzida 1 tonelada de papel reciclado, é preciso 1,2 toneladas de papel usado e 50 vezes menos água do que seria usado par produzir um novo."
+                android:textColor="#009688"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/text31"
+                    android:layout_width="match_parent"
+                    android:layout_height="236dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/plastico" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Plático"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="O plástico é um produto que não vai durar muito tempo nas prateleiras das lojas. Por ser derivado do petróleo (que é um recurso não-renovável), ele deixará de existir (pelo menos em sua composição atual) em menos de 40 anos.
+
+A cada 100 toneladas de plástico reciclado, é economizada mais de 1 tonelada de petróleo, que também é o que abastece nossos veículos."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/text41"
+                    android:layout_width="match_parent"
+                    android:layout_height="236dp"
+                    android:layout_gravity="fill_horizontal|fill_vertical"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/metal" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Metal"
+                    android:textAllCaps="false"
+                    android:textColor="#026605"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="É um dos materiais que mais gastam energia e altos custos de produção. Quando se recicla 1 tonelada, de alumínio, por exemplo, há uma economia de quase 100% da energia que seria gasta para fazer um novo.
+
+O Brasil possui um índice de reciclagem de latinhas que supera países como Japão, Espanha, Inglaterra e Portugal, com cerca de 64% de todas elas sendo recicladas. Dependendo da atitude da população, esse número pode saltar para quase 100%."
+                    android:textColor="#009688"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
 
             <ImageView
                 android:id="@+id/imageView"

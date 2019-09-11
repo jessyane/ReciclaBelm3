@@ -38,9 +38,6 @@ public class Compartilhar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compartilhar);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
 
         ImageButton buttonr = (ImageButton) findViewById(R.id.btnCamera);
         buttonr.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +46,7 @@ public class Compartilhar extends AppCompatActivity {
                 getPermissions();
             }
         });
+
     }
 
     private void getPermissions() {
